@@ -8,13 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		768DF06F253FFC16004A4F86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF06E253FFC16004A4F86 /* AppDelegate.swift */; };
-		768DF071253FFC16004A4F86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF070253FFC16004A4F86 /* SceneDelegate.swift */; };
-		768DF073253FFC16004A4F86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF072253FFC16004A4F86 /* ViewController.swift */; };
+		768DF073253FFC16004A4F86 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF072253FFC16004A4F86 /* MainViewController.swift */; };
 		768DF076253FFC16004A4F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768DF074253FFC16004A4F86 /* Main.storyboard */; };
 		768DF078253FFC18004A4F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768DF077253FFC18004A4F86 /* Assets.xcassets */; };
 		768DF07B253FFC18004A4F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768DF079253FFC18004A4F86 /* LaunchScreen.storyboard */; };
 		768DF086253FFC18004A4F86 /* DelightWidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF085253FFC18004A4F86 /* DelightWidgetTests.swift */; };
 		768DF091253FFC18004A4F86 /* DelightWidgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF090253FFC18004A4F86 /* DelightWidgetUITests.swift */; };
+		768DF0A6253FFD22004A4F86 /* EmojiDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF0A4253FFD22004A4F86 /* EmojiDetails.swift */; };
+		768DF0A7253FFD22004A4F86 /* EmojiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF0A5253FFD22004A4F86 /* EmojiProvider.swift */; };
+		768DF0AC253FFEB0004A4F86 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF0AB253FFEB0004A4F86 /* DetailViewController.swift */; };
+		768DF0B72540006E004A4F86 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768DF0B62540006E004A4F86 /* WidgetKit.framework */; };
+		768DF0B92540006E004A4F86 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 768DF0B82540006E004A4F86 /* SwiftUI.framework */; };
+		768DF0BC2540006E004A4F86 /* DelightWidgetWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF0BB2540006E004A4F86 /* DelightWidgetWidget.swift */; };
+		768DF0BE25400070004A4F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768DF0BD25400070004A4F86 /* Assets.xcassets */; };
+		768DF0C225400070004A4F86 /* DelightWidgetWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 768DF0B42540006E004A4F86 /* DelightWidgetWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		768DF0CB2540007E004A4F86 /* EmojiDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF0A4253FFD22004A4F86 /* EmojiDetails.swift */; };
+		768DF0D025400080004A4F86 /* EmojiProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF0A5253FFD22004A4F86 /* EmojiProvider.swift */; };
+		768DF0D6254000F9004A4F86 /* DelightWidgetWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF0D5254000F9004A4F86 /* DelightWidgetWidgetView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,13 +42,33 @@
 			remoteGlobalIDString = 768DF06A253FFC16004A4F86;
 			remoteInfo = DelightWidget;
 		};
+		768DF0C025400070004A4F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768DF063253FFC16004A4F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768DF0B32540006E004A4F86;
+			remoteInfo = DelightWidgetWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		768DF0C625400070004A4F86 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				768DF0C225400070004A4F86 /* DelightWidgetWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		768DF06B253FFC16004A4F86 /* DelightWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelightWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		768DF06E253FFC16004A4F86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		768DF070253FFC16004A4F86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		768DF072253FFC16004A4F86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		768DF072253FFC16004A4F86 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		768DF075253FFC16004A4F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		768DF077253FFC18004A4F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		768DF07A253FFC18004A4F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +79,16 @@
 		768DF08C253FFC18004A4F86 /* DelightWidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelightWidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		768DF090253FFC18004A4F86 /* DelightWidgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelightWidgetUITests.swift; sourceTree = "<group>"; };
 		768DF092253FFC18004A4F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768DF0A4253FFD22004A4F86 /* EmojiDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiDetails.swift; sourceTree = "<group>"; };
+		768DF0A5253FFD22004A4F86 /* EmojiProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiProvider.swift; sourceTree = "<group>"; };
+		768DF0AB253FFEB0004A4F86 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		768DF0B42540006E004A4F86 /* DelightWidgetWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = DelightWidgetWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		768DF0B62540006E004A4F86 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		768DF0B82540006E004A4F86 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		768DF0BB2540006E004A4F86 /* DelightWidgetWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelightWidgetWidget.swift; sourceTree = "<group>"; };
+		768DF0BD25400070004A4F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		768DF0BF25400070004A4F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768DF0D5254000F9004A4F86 /* DelightWidgetWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelightWidgetWidgetView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +113,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		768DF0B12540006E004A4F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768DF0B92540006E004A4F86 /* SwiftUI.framework in Frameworks */,
+				768DF0B72540006E004A4F86 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -82,6 +131,8 @@
 				768DF06D253FFC16004A4F86 /* DelightWidget */,
 				768DF084253FFC18004A4F86 /* DelightWidgetTests */,
 				768DF08F253FFC18004A4F86 /* DelightWidgetUITests */,
+				768DF0BA2540006E004A4F86 /* DelightWidgetWidget */,
+				768DF0B52540006E004A4F86 /* Frameworks */,
 				768DF06C253FFC16004A4F86 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +143,7 @@
 				768DF06B253FFC16004A4F86 /* DelightWidget.app */,
 				768DF081253FFC18004A4F86 /* DelightWidgetTests.xctest */,
 				768DF08C253FFC18004A4F86 /* DelightWidgetUITests.xctest */,
+				768DF0B42540006E004A4F86 /* DelightWidgetWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,9 +152,11 @@
 			isa = PBXGroup;
 			children = (
 				768DF06E253FFC16004A4F86 /* AppDelegate.swift */,
-				768DF070253FFC16004A4F86 /* SceneDelegate.swift */,
-				768DF072253FFC16004A4F86 /* ViewController.swift */,
+				768DF072253FFC16004A4F86 /* MainViewController.swift */,
 				768DF074253FFC16004A4F86 /* Main.storyboard */,
+				768DF0AB253FFEB0004A4F86 /* DetailViewController.swift */,
+				768DF0A4253FFD22004A4F86 /* EmojiDetails.swift */,
+				768DF0A5253FFD22004A4F86 /* EmojiProvider.swift */,
 				768DF077253FFC18004A4F86 /* Assets.xcassets */,
 				768DF079253FFC18004A4F86 /* LaunchScreen.storyboard */,
 				768DF07C253FFC18004A4F86 /* Info.plist */,
@@ -128,6 +182,26 @@
 			path = DelightWidgetUITests;
 			sourceTree = "<group>";
 		};
+		768DF0B52540006E004A4F86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				768DF0B62540006E004A4F86 /* WidgetKit.framework */,
+				768DF0B82540006E004A4F86 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		768DF0BA2540006E004A4F86 /* DelightWidgetWidget */ = {
+			isa = PBXGroup;
+			children = (
+				768DF0BB2540006E004A4F86 /* DelightWidgetWidget.swift */,
+				768DF0D5254000F9004A4F86 /* DelightWidgetWidgetView.swift */,
+				768DF0BD25400070004A4F86 /* Assets.xcassets */,
+				768DF0BF25400070004A4F86 /* Info.plist */,
+			);
+			path = DelightWidgetWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,10 +212,12 @@
 				768DF067253FFC16004A4F86 /* Sources */,
 				768DF068253FFC16004A4F86 /* Frameworks */,
 				768DF069253FFC16004A4F86 /* Resources */,
+				768DF0C625400070004A4F86 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				768DF0C125400070004A4F86 /* PBXTargetDependency */,
 			);
 			name = DelightWidget;
 			productName = DelightWidget;
@@ -184,6 +260,23 @@
 			productReference = 768DF08C253FFC18004A4F86 /* DelightWidgetUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		768DF0B32540006E004A4F86 /* DelightWidgetWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768DF0C325400070004A4F86 /* Build configuration list for PBXNativeTarget "DelightWidgetWidgetExtension" */;
+			buildPhases = (
+				768DF0B02540006E004A4F86 /* Sources */,
+				768DF0B12540006E004A4F86 /* Frameworks */,
+				768DF0B22540006E004A4F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DelightWidgetWidgetExtension;
+			productName = DelightWidgetWidgetExtension;
+			productReference = 768DF0B42540006E004A4F86 /* DelightWidgetWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -204,6 +297,9 @@
 						CreatedOnToolsVersion = 12.1;
 						TestTargetID = 768DF06A253FFC16004A4F86;
 					};
+					768DF0B32540006E004A4F86 = {
+						CreatedOnToolsVersion = 12.1;
+					};
 				};
 			};
 			buildConfigurationList = 768DF066253FFC16004A4F86 /* Build configuration list for PBXProject "DelightWidget" */;
@@ -222,6 +318,7 @@
 				768DF06A253FFC16004A4F86 /* DelightWidget */,
 				768DF080253FFC18004A4F86 /* DelightWidgetTests */,
 				768DF08B253FFC18004A4F86 /* DelightWidgetUITests */,
+				768DF0B32540006E004A4F86 /* DelightWidgetWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -251,6 +348,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		768DF0B22540006E004A4F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768DF0BE25400070004A4F86 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -258,9 +363,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				768DF073253FFC16004A4F86 /* ViewController.swift in Sources */,
+				768DF073253FFC16004A4F86 /* MainViewController.swift in Sources */,
 				768DF06F253FFC16004A4F86 /* AppDelegate.swift in Sources */,
-				768DF071253FFC16004A4F86 /* SceneDelegate.swift in Sources */,
+				768DF0A7253FFD22004A4F86 /* EmojiProvider.swift in Sources */,
+				768DF0AC253FFEB0004A4F86 /* DetailViewController.swift in Sources */,
+				768DF0A6253FFD22004A4F86 /* EmojiDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +387,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		768DF0B02540006E004A4F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768DF0D6254000F9004A4F86 /* DelightWidgetWidgetView.swift in Sources */,
+				768DF0BC2540006E004A4F86 /* DelightWidgetWidget.swift in Sources */,
+				768DF0CB2540007E004A4F86 /* EmojiDetails.swift in Sources */,
+				768DF0D025400080004A4F86 /* EmojiProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -292,6 +410,11 @@
 			isa = PBXTargetDependency;
 			target = 768DF06A253FFC16004A4F86 /* DelightWidget */;
 			targetProxy = 768DF08D253FFC18004A4F86 /* PBXContainerItemProxy */;
+		};
+		768DF0C125400070004A4F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768DF0B32540006E004A4F86 /* DelightWidgetWidgetExtension */;
+			targetProxy = 768DF0C025400070004A4F86 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -434,11 +557,13 @@
 		768DF096253FFC18004A4F86 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7TU46GA8U2;
 				INFOPLIST_FILE = DelightWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,11 +578,13 @@
 		768DF097253FFC18004A4F86 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7TU46GA8U2;
 				INFOPLIST_FILE = DelightWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -553,6 +680,50 @@
 			};
 			name = Release;
 		};
+		768DF0C425400070004A4F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TU46GA8U2;
+				INFOPLIST_FILE = DelightWidgetWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = droom.DelightWidget.DelightWidgetWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		768DF0C525400070004A4F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TU46GA8U2;
+				INFOPLIST_FILE = DelightWidgetWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = droom.DelightWidget.DelightWidgetWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,6 +759,15 @@
 			buildConfigurations = (
 				768DF09C253FFC18004A4F86 /* Debug */,
 				768DF09D253FFC18004A4F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768DF0C325400070004A4F86 /* Build configuration list for PBXNativeTarget "DelightWidgetWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768DF0C425400070004A4F86 /* Debug */,
+				768DF0C525400070004A4F86 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
