@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		768DF06F253FFC16004A4F86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF06E253FFC16004A4F86 /* AppDelegate.swift */; };
+		768DF071253FFC16004A4F86 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF070253FFC16004A4F86 /* SceneDelegate.swift */; };
+		768DF073253FFC16004A4F86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF072253FFC16004A4F86 /* ViewController.swift */; };
+		768DF076253FFC16004A4F86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768DF074253FFC16004A4F86 /* Main.storyboard */; };
+		768DF078253FFC18004A4F86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 768DF077253FFC18004A4F86 /* Assets.xcassets */; };
+		768DF07B253FFC18004A4F86 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 768DF079253FFC18004A4F86 /* LaunchScreen.storyboard */; };
+		768DF086253FFC18004A4F86 /* DelightWidgetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF085253FFC18004A4F86 /* DelightWidgetTests.swift */; };
+		768DF091253FFC18004A4F86 /* DelightWidgetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768DF090253FFC18004A4F86 /* DelightWidgetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		768DF082253FFC18004A4F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768DF063253FFC16004A4F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768DF06A253FFC16004A4F86;
+			remoteInfo = DelightWidget;
+		};
+		768DF08D253FFC18004A4F86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 768DF063253FFC16004A4F86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 768DF06A253FFC16004A4F86;
+			remoteInfo = DelightWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		768DF06B253FFC16004A4F86 /* DelightWidget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DelightWidget.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		768DF06E253FFC16004A4F86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		768DF070253FFC16004A4F86 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		768DF072253FFC16004A4F86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		768DF075253FFC16004A4F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		768DF077253FFC18004A4F86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		768DF07A253FFC18004A4F86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		768DF07C253FFC18004A4F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768DF081253FFC18004A4F86 /* DelightWidgetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelightWidgetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		768DF085253FFC18004A4F86 /* DelightWidgetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelightWidgetTests.swift; sourceTree = "<group>"; };
+		768DF087253FFC18004A4F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		768DF08C253FFC18004A4F86 /* DelightWidgetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelightWidgetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		768DF090253FFC18004A4F86 /* DelightWidgetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelightWidgetUITests.swift; sourceTree = "<group>"; };
+		768DF092253FFC18004A4F86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		768DF068253FFC16004A4F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768DF07E253FFC18004A4F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768DF089253FFC18004A4F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		768DF062253FFC16004A4F86 = {
+			isa = PBXGroup;
+			children = (
+				768DF06D253FFC16004A4F86 /* DelightWidget */,
+				768DF084253FFC18004A4F86 /* DelightWidgetTests */,
+				768DF08F253FFC18004A4F86 /* DelightWidgetUITests */,
+				768DF06C253FFC16004A4F86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		768DF06C253FFC16004A4F86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				768DF06B253FFC16004A4F86 /* DelightWidget.app */,
+				768DF081253FFC18004A4F86 /* DelightWidgetTests.xctest */,
+				768DF08C253FFC18004A4F86 /* DelightWidgetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		768DF06D253FFC16004A4F86 /* DelightWidget */ = {
+			isa = PBXGroup;
+			children = (
+				768DF06E253FFC16004A4F86 /* AppDelegate.swift */,
+				768DF070253FFC16004A4F86 /* SceneDelegate.swift */,
+				768DF072253FFC16004A4F86 /* ViewController.swift */,
+				768DF074253FFC16004A4F86 /* Main.storyboard */,
+				768DF077253FFC18004A4F86 /* Assets.xcassets */,
+				768DF079253FFC18004A4F86 /* LaunchScreen.storyboard */,
+				768DF07C253FFC18004A4F86 /* Info.plist */,
+			);
+			path = DelightWidget;
+			sourceTree = "<group>";
+		};
+		768DF084253FFC18004A4F86 /* DelightWidgetTests */ = {
+			isa = PBXGroup;
+			children = (
+				768DF085253FFC18004A4F86 /* DelightWidgetTests.swift */,
+				768DF087253FFC18004A4F86 /* Info.plist */,
+			);
+			path = DelightWidgetTests;
+			sourceTree = "<group>";
+		};
+		768DF08F253FFC18004A4F86 /* DelightWidgetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				768DF090253FFC18004A4F86 /* DelightWidgetUITests.swift */,
+				768DF092253FFC18004A4F86 /* Info.plist */,
+			);
+			path = DelightWidgetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		768DF06A253FFC16004A4F86 /* DelightWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768DF095253FFC18004A4F86 /* Build configuration list for PBXNativeTarget "DelightWidget" */;
+			buildPhases = (
+				768DF067253FFC16004A4F86 /* Sources */,
+				768DF068253FFC16004A4F86 /* Frameworks */,
+				768DF069253FFC16004A4F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DelightWidget;
+			productName = DelightWidget;
+			productReference = 768DF06B253FFC16004A4F86 /* DelightWidget.app */;
+			productType = "com.apple.product-type.application";
+		};
+		768DF080253FFC18004A4F86 /* DelightWidgetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768DF098253FFC18004A4F86 /* Build configuration list for PBXNativeTarget "DelightWidgetTests" */;
+			buildPhases = (
+				768DF07D253FFC18004A4F86 /* Sources */,
+				768DF07E253FFC18004A4F86 /* Frameworks */,
+				768DF07F253FFC18004A4F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768DF083253FFC18004A4F86 /* PBXTargetDependency */,
+			);
+			name = DelightWidgetTests;
+			productName = DelightWidgetTests;
+			productReference = 768DF081253FFC18004A4F86 /* DelightWidgetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		768DF08B253FFC18004A4F86 /* DelightWidgetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 768DF09B253FFC18004A4F86 /* Build configuration list for PBXNativeTarget "DelightWidgetUITests" */;
+			buildPhases = (
+				768DF088253FFC18004A4F86 /* Sources */,
+				768DF089253FFC18004A4F86 /* Frameworks */,
+				768DF08A253FFC18004A4F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				768DF08E253FFC18004A4F86 /* PBXTargetDependency */,
+			);
+			name = DelightWidgetUITests;
+			productName = DelightWidgetUITests;
+			productReference = 768DF08C253FFC18004A4F86 /* DelightWidgetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		768DF063253FFC16004A4F86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					768DF06A253FFC16004A4F86 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					768DF080253FFC18004A4F86 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 768DF06A253FFC16004A4F86;
+					};
+					768DF08B253FFC18004A4F86 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = 768DF06A253FFC16004A4F86;
+					};
+				};
+			};
+			buildConfigurationList = 768DF066253FFC16004A4F86 /* Build configuration list for PBXProject "DelightWidget" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 768DF062253FFC16004A4F86;
+			productRefGroup = 768DF06C253FFC16004A4F86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				768DF06A253FFC16004A4F86 /* DelightWidget */,
+				768DF080253FFC18004A4F86 /* DelightWidgetTests */,
+				768DF08B253FFC18004A4F86 /* DelightWidgetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		768DF069253FFC16004A4F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768DF07B253FFC18004A4F86 /* LaunchScreen.storyboard in Resources */,
+				768DF078253FFC18004A4F86 /* Assets.xcassets in Resources */,
+				768DF076253FFC16004A4F86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768DF07F253FFC18004A4F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768DF08A253FFC18004A4F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		768DF067253FFC16004A4F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768DF073253FFC16004A4F86 /* ViewController.swift in Sources */,
+				768DF06F253FFC16004A4F86 /* AppDelegate.swift in Sources */,
+				768DF071253FFC16004A4F86 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768DF07D253FFC18004A4F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768DF086253FFC18004A4F86 /* DelightWidgetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		768DF088253FFC18004A4F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				768DF091253FFC18004A4F86 /* DelightWidgetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		768DF083253FFC18004A4F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768DF06A253FFC16004A4F86 /* DelightWidget */;
+			targetProxy = 768DF082253FFC18004A4F86 /* PBXContainerItemProxy */;
+		};
+		768DF08E253FFC18004A4F86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 768DF06A253FFC16004A4F86 /* DelightWidget */;
+			targetProxy = 768DF08D253FFC18004A4F86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		768DF074253FFC16004A4F86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768DF075253FFC16004A4F86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		768DF079253FFC18004A4F86 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				768DF07A253FFC18004A4F86 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		768DF093253FFC18004A4F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		768DF094253FFC18004A4F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		768DF096253FFC18004A4F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TU46GA8U2;
+				INFOPLIST_FILE = DelightWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = droom.DelightWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		768DF097253FFC18004A4F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TU46GA8U2;
+				INFOPLIST_FILE = DelightWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = droom.DelightWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		768DF099253FFC18004A4F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TU46GA8U2;
+				INFOPLIST_FILE = DelightWidgetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = droom.DelightWidgetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DelightWidget.app/DelightWidget";
+			};
+			name = Debug;
+		};
+		768DF09A253FFC18004A4F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TU46GA8U2;
+				INFOPLIST_FILE = DelightWidgetTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = droom.DelightWidgetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DelightWidget.app/DelightWidget";
+			};
+			name = Release;
+		};
+		768DF09C253FFC18004A4F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TU46GA8U2;
+				INFOPLIST_FILE = DelightWidgetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = droom.DelightWidgetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DelightWidget;
+			};
+			name = Debug;
+		};
+		768DF09D253FFC18004A4F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TU46GA8U2;
+				INFOPLIST_FILE = DelightWidgetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = droom.DelightWidgetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DelightWidget;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		768DF066253FFC16004A4F86 /* Build configuration list for PBXProject "DelightWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768DF093253FFC18004A4F86 /* Debug */,
+				768DF094253FFC18004A4F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768DF095253FFC18004A4F86 /* Build configuration list for PBXNativeTarget "DelightWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768DF096253FFC18004A4F86 /* Debug */,
+				768DF097253FFC18004A4F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768DF098253FFC18004A4F86 /* Build configuration list for PBXNativeTarget "DelightWidgetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768DF099253FFC18004A4F86 /* Debug */,
+				768DF09A253FFC18004A4F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		768DF09B253FFC18004A4F86 /* Build configuration list for PBXNativeTarget "DelightWidgetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				768DF09C253FFC18004A4F86 /* Debug */,
+				768DF09D253FFC18004A4F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 768DF063253FFC16004A4F86 /* Project object */;
+}
